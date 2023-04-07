@@ -146,6 +146,11 @@ body
     justify-content: flex-end;
 }
 
+.icon_hamburger
+{
+    display: none;
+}
+
 .menu nav ul
 {
     list-style: none;
@@ -449,4 +454,40 @@ footer
     line-height: 26px;
     letter-spacing: -0.23px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+
+@media (max-width: 375px) 
+{
+    .standard_width
+    {
+        max-width: 327px;
+    }
+    .menu
+    {
+        display: none;
+    }
+
+    .intro
+    {
+        flex-direction: column-reverse;
+    }
+
+    .request_invite a
+    {
+        display: none;
+    }
+
+    .intro .right img
+    {
+        width: 327px;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 80px);
+    }
+
+    .icon_hamburger
+    {
+        display: block;
+    }
 }
