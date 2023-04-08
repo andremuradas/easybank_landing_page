@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,16 +26,30 @@
                         </ul>
                     </nav>
                 </div>
+                <div id="menuMobile" class="menu_mobile">
+                    
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Careers</a>
+                        </ul>
+                    </nav>
+                </div>
                 <div class="request_invite">
                     <a href="#" class="standard_btn_bg">
                         <div class="fill_blank">Request Invite</div>
                     </a>
-                    <img class="icon_hamburger" src="assets/images/icon-hamburger.svg">
+                    <img id="iconHamburger" class="icon_hamburger" src="assets/images/icon-hamburger.svg">
+                    <img id="iconClose" class="icon_close" src="assets/images/icon-close.svg">
                 </div>
             </div>
         </div>
     </header>
     <main>
+        <div class="menu_mobile_bg"></div>
         <section class="intro_container">
             <div class="intro_bg">
                 <div class="intro_bg_left"></div>
